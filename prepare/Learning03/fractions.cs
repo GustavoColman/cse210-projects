@@ -5,9 +5,12 @@ using System;
 public class Fraction
 {
     // this are atributes, equivalents of variables on python
+    //these atributes are private
     private int _top;
     private int _bottom;
 
+
+    //this is a constructor
     public Fraction()
     {
         // Default to 1/1
@@ -15,18 +18,21 @@ public class Fraction
         _bottom = 1;
     }
 
+    //this is a constructor
     public Fraction(int wholeNumber)
     {
         _top = wholeNumber;
         _bottom = 1;
     }
 
+    //this is a constructor
     public Fraction(int top, int bottom)
     {
         _top = top;
         _bottom = bottom;
     }
 
+    //this is a getter
     public string GetFractionString()
     {
         // Notice that this is not stored as a member variable.
@@ -36,6 +42,7 @@ public class Fraction
         return text;
     }
 
+    //this is a getter
     public double GetDecimalValue()
     {
         // Notice that this is not stored as a member variable.

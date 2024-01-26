@@ -13,11 +13,12 @@ class Program
         //this code is equivalent of print (f"{variable1},{variable2}") on python
 
         //the variable f1 is declare don the same line where we
-        //call the 
+        //call the fraction constructor
         Fraction f1 = new Fraction();
         Console.WriteLine(f1.GetFractionString());
         Console.WriteLine(f1.GetDecimalValue());
 
+        //these are setters who set the value on ( )
         Fraction f2 = new Fraction(5);
         Console.WriteLine(f2.GetFractionString());
         Console.WriteLine(f2.GetDecimalValue());
