@@ -12,6 +12,8 @@ class BreathingActivity : MindfulnessActivity
     {
     }
 
+//here we are using polimorism, i not undestood this part yet, i hope to undestand 
+//this code principle soon
     protected override void PerformActivity()
     {
         Console.WriteLine("Breathe in...");
