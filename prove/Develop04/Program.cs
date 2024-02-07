@@ -1,11 +1,15 @@
 using System;
 
+//program main class
 class Program
 {
+    //main method of the program
     static void Main(string[] args)
     {
+        //print the frase
         Console.WriteLine("Mindfulness Program");
 
+        // create a loop for a menu
         while (true)
         {
             Console.WriteLine("\nMenu:");
@@ -20,6 +24,7 @@ class Program
 
             if (choice == 5)
             {
+                // program shut down
                 Console.WriteLine("Exiting the program. Goodbye!");
                 break;
             }
