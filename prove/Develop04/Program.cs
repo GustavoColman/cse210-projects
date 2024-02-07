@@ -32,10 +32,21 @@ class Program
             MindfulnessActivity selectedActivity;
 
             switch (choice)
+            //"switch" always works with the key word "case" and help to
+            //select one of the options
             {
+                //calls the breathingactivity class
                 case 1:
+                //create a new instance to the class breathing activity and
+                //atributed on selectedactivity variable
                     selectedActivity = new BreathingActivity();
                     break;
+                    //new is a key world to create a new class stance, and
+                    //BreathingActivity() is the class constructor
+                    //whem i type BreathingActivity() i am calling the class
+                    //constructor and create a new class object 
+
+                    
                 case 2:
                     selectedActivity = new ReflectionActivity();
                     break;
